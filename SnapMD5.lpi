@@ -1,0 +1,356 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <MainUnit Value="0"/>
+      <Title Value="Snap MD5"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <MinorVersionNr Value="1"/>
+      <BuildNr Value="4"/>
+      <StringTable CompanyName="Snapmagic Software" FileDescription="Quickly compare MD5 sums" LegalCopyright="Dan Hersam" ProductVersion="1.0.4"/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="15">
+      <Unit0>
+        <Filename Value="SnapMD5.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="16" Y="20"/>
+        <UsageCount Value="94"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="cryptlib.pas"/>
+        <UnitName Value="cryptlib"/>
+        <TopLine Value="1926"/>
+        <CursorPos X="1" Y="1998"/>
+        <UsageCount Value="5"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="Main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Main"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="74"/>
+        <CursorPos X="76" Y="94"/>
+        <UsageCount Value="94"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\DragDrop20100129\DragDrop\Source\DragDrop.pas"/>
+        <UnitName Value="DragDrop"/>
+        <TopLine Value="374"/>
+        <CursorPos X="90" Y="398"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\DragDrop20100129\DragDrop\Source\DragDropComObj.pas"/>
+        <UnitName Value="DragDropComObj"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\DragDrop20100129\DragDrop\Source\DragDropContext.pas"/>
+        <UnitName Value="DragDropContext"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\DragDrop20100129\DragDrop\Source\DropSource.pas"/>
+        <UnitName Value="DropSource"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\DragDrop20100129\DragDrop\Source\DropTarget.pas"/>
+        <UnitName Value="DropTarget"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\DragDrop20100129\DragDrop\Source\DragDropPIDL.pas"/>
+        <UnitName Value="DragDropPIDL"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\SnapTimer\about.lfm"/>
+        <TopLine Value="1"/>
+        <CursorPos X="65" Y="14"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\SnapTimer\about.pas"/>
+        <ComponentName Value="AboutForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="About"/>
+        <TopLine Value="6"/>
+        <CursorPos X="45" Y="51"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="about.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AboutForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="About"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="55" Y="4"/>
+        <UsageCount Value="44"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <TopLine Value="2621"/>
+        <CursorPos X="1" Y="2644"/>
+        <UsageCount Value="9"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="dropfile.pas"/>
+        <UnitName Value="dropfile"/>
+        <TopLine Value="1"/>
+        <CursorPos X="28" Y="21"/>
+        <UsageCount Value="22"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="SnapMD5.lrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="17" Y="1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit14>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="Main.pas"/>
+        <Caret Line="64" Column="27" TopLine="3"/>
+      </Position1>
+      <Position2>
+        <Filename Value="Main.pas"/>
+        <Caret Line="74" Column="43" TopLine="25"/>
+      </Position2>
+      <Position3>
+        <Filename Value="SnapMD5.lpr"/>
+        <Caret Line="15" Column="47" TopLine="1"/>
+      </Position3>
+      <Position4>
+        <Filename Value="SnapMD5.lpr"/>
+        <Caret Line="17" Column="1" TopLine="1"/>
+      </Position4>
+      <Position5>
+        <Filename Value="Main.pas"/>
+        <Caret Line="44" Column="3" TopLine="20"/>
+      </Position5>
+      <Position6>
+        <Filename Value="SnapMD5.lpr"/>
+        <Caret Line="17" Column="1" TopLine="1"/>
+      </Position6>
+      <Position7>
+        <Filename Value="Main.pas"/>
+        <Caret Line="43" Column="42" TopLine="23"/>
+      </Position7>
+      <Position8>
+        <Filename Value="SnapMD5.lpr"/>
+        <Caret Line="17" Column="1" TopLine="1"/>
+      </Position8>
+      <Position9>
+        <Filename Value="SnapMD5.lpr"/>
+        <Caret Line="16" Column="20" TopLine="1"/>
+      </Position9>
+      <Position10>
+        <Filename Value="SnapMD5.lpr"/>
+        <Caret Line="6" Column="22" TopLine="1"/>
+      </Position10>
+      <Position11>
+        <Filename Value="SnapMD5.lpr"/>
+        <Caret Line="13" Column="19" TopLine="1"/>
+      </Position11>
+      <Position12>
+        <Filename Value="SnapMD5.lpr"/>
+        <Caret Line="16" Column="61" TopLine="1"/>
+      </Position12>
+      <Position13>
+        <Filename Value="SnapMD5.lpr"/>
+        <Caret Line="15" Column="11" TopLine="1"/>
+      </Position13>
+      <Position14>
+        <Filename Value="Main.pas"/>
+        <Caret Line="164" Column="54" TopLine="141"/>
+      </Position14>
+      <Position15>
+        <Filename Value="Main.pas"/>
+        <Caret Line="222" Column="24" TopLine="162"/>
+      </Position15>
+      <Position16>
+        <Filename Value="Main.pas"/>
+        <Caret Line="224" Column="26" TopLine="164"/>
+      </Position16>
+      <Position17>
+        <Filename Value="Main.pas"/>
+        <Caret Line="225" Column="12" TopLine="164"/>
+      </Position17>
+      <Position18>
+        <Filename Value="Main.pas"/>
+        <Caret Line="203" Column="73" TopLine="155"/>
+      </Position18>
+      <Position19>
+        <Filename Value="Main.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position19>
+      <Position20>
+        <Filename Value="Main.pas"/>
+        <Caret Line="134" Column="39" TopLine="104"/>
+      </Position20>
+      <Position21>
+        <Filename Value="Main.pas"/>
+        <Caret Line="28" Column="33" TopLine="1"/>
+      </Position21>
+      <Position22>
+        <Filename Value="Main.pas"/>
+        <Caret Line="82" Column="9" TopLine="22"/>
+      </Position22>
+      <Position23>
+        <Filename Value="Main.pas"/>
+        <Caret Line="143" Column="59" TopLine="95"/>
+      </Position23>
+      <Position24>
+        <Filename Value="Main.pas"/>
+        <Caret Line="9" Column="41" TopLine="1"/>
+      </Position24>
+      <Position25>
+        <Filename Value="Main.pas"/>
+        <Caret Line="24" Column="38" TopLine="1"/>
+      </Position25>
+      <Position26>
+        <Filename Value="Main.pas"/>
+        <Caret Line="110" Column="31" TopLine="91"/>
+      </Position26>
+      <Position27>
+        <Filename Value="Main.pas"/>
+        <Caret Line="18" Column="64" TopLine="1"/>
+      </Position27>
+      <Position28>
+        <Filename Value="Main.pas"/>
+        <Caret Line="44" Column="19" TopLine="1"/>
+      </Position28>
+      <Position29>
+        <Filename Value="about.pas"/>
+        <Caret Line="45" Column="6" TopLine="14"/>
+      </Position29>
+      <Position30>
+        <Filename Value="SnapMD5.lpr"/>
+        <Caret Line="15" Column="32" TopLine="1"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="build"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <SyntaxMode Value="Delphi"/>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <SmartLinkUnit Value="True"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <UseLineInfoUnit Value="False"/>
+        <StripSymbols Value="True"/>
+      </Debugging>
+      <LinkSmart Value="True"/>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+      <ExecuteAfter>
+        <CompileReasons Run="False"/>
+      </ExecuteAfter>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

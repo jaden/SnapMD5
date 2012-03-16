@@ -1,0 +1,16 @@
+Steps to release a new version
+
+* Run all tests in texts.txt (write unit tests?)
+* Update Readme.txt with new version and new features
+* Update version.inc
+* Update EXE version in project
+* Verify the version is correct in the binary and in the About dialog
+* Run deploy.bat to copy all the files into the released location
+* Check in changes
+* Tag released file:
+    svn copy https://snap-md5.googlecode.com/svn/trunk/ https://snap-md5.googlecode.com/svn/tags/<VERSION> -m "Description of release"
+* Archive previous version's zip file
+* Upload new zip file, update HTML page with version info, date and MD5 sum
+* Mark new zip file as featured download
+* Put up new screenshot if things have changed enough
+* Update software sites

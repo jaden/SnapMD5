@@ -1,0 +1,13 @@
+Tests to run before a release
+
+Large file passed as parameter shows window first, then updates status for each hash
+Drag and drop works (single file, multiple file)
+File -> Open (Ctrl-O)
+File -> Hash (Ctrl-H) - Enter invalid and valid paths
+File -> Reset (Ctrl-R)
+File -> Exit (Alt-X)
+Browse button
+Help -> About
+Hash of MD5 sum in clipboard and SHA-1 in clipboard
+Select all text with mouse or tab into field
+Modifying Clipboard field resets match status without having to press anything

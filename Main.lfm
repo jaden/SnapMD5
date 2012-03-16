@@ -1,0 +1,179 @@
+object MainForm: TMainForm
+  Left = 243
+  Height = 314
+  Top = 372
+  Width = 479
+  BorderStyle = bsSingle
+  Caption = 'Snap MD5'
+  ClientHeight = 294
+  ClientWidth = 479
+  DragMode = dmAutomatic
+  Font.Height = -12
+  KeyPreview = True
+  Menu = MainMenu1
+  OnActivate = ActivateForm
+  OnCreate = FillFields
+  OnDropFiles = DropFiles
+  OnKeyPress = FormKeyPress
+  Position = poScreenCenter
+  LCLVersion = '0.9.30'
+  object MatchStatus: TLabel
+    Left = 0
+    Height = 1
+    Top = 270
+    Width = 479
+    Align = alBottom
+    Alignment = taCenter
+    Font.Color = clWhite
+    Font.Height = -19
+    Font.Quality = fqAntialiased
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object GroupBox1: TGroupBox
+    Left = 8
+    Height = 48
+    Top = 8
+    Width = 465
+    Caption = 'Filename'
+    ClientHeight = 30
+    ClientWidth = 461
+    Color = clBtnFace
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 0
+    object FileField: TEdit
+      Left = 6
+      Height = 23
+      Top = 1
+      Width = 366
+      OnMouseDown = SelectField
+      ParentFont = False
+      TabOrder = 0
+    end
+    object BrowseBtn: TButton
+      Left = 380
+      Height = 23
+      Top = 0
+      Width = 75
+      Caption = '&Browse'
+      OnClick = BrowseBtnClick
+      TabOrder = 1
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 8
+    Height = 49
+    Top = 63
+    Width = 465
+    Caption = 'MD5 Sum'
+    ClientHeight = 31
+    ClientWidth = 461
+    ParentFont = False
+    TabOrder = 2
+    object md5sum: TEdit
+      Left = 6
+      Height = 23
+      Top = 0
+      Width = 450
+      CharCase = ecUppercase
+      Color = clBtnFace
+      OnMouseDown = SelectField
+      ParentFont = False
+      ReadOnly = True
+      TabStop = False
+      TabOrder = 0
+    end
+  end
+  object GroupBox3: TGroupBox
+    Left = 8
+    Height = 49
+    Top = 175
+    Width = 465
+    Caption = 'Clipboard'
+    ClientHeight = 31
+    ClientWidth = 461
+    ParentFont = False
+    TabOrder = 1
+    object Clipfield: TEdit
+      Left = 5
+      Height = 23
+      Top = 1
+      Width = 450
+      CharCase = ecUppercase
+      OnChange = ClipfieldChange
+      OnMouseDown = SelectField
+      ParentFont = False
+      TabOrder = 0
+    end
+  end
+  object GroupBox4: TGroupBox
+    Left = 8
+    Height = 49
+    Top = 119
+    Width = 465
+    Caption = 'SHA-1'
+    ClientHeight = 31
+    ClientWidth = 461
+    ParentFont = False
+    TabOrder = 3
+    object sha1: TEdit
+      Left = 6
+      Height = 23
+      Top = 0
+      Width = 450
+      CharCase = ecUppercase
+      Color = clBtnFace
+      OnMouseDown = SelectField
+      ParentFont = False
+      ReadOnly = True
+      TabStop = False
+      TabOrder = 0
+    end
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 271
+    Width = 479
+    Panels = <>
+    ParentShowHint = False
+    SizeGrip = False
+  end
+  object MainMenu1: TMainMenu
+    left = 432
+    top = 232
+    object MenuFile: TMenuItem
+      Caption = '&File'
+      object MenuOpen: TMenuItem
+        Caption = '&Open'
+        ShortCut = 16463
+        OnClick = BrowseBtnClick
+      end
+      object MenuHash: TMenuItem
+        Caption = '&Hash'
+        ShortCut = 16456
+        OnClick = CalcHashes
+      end
+      object MenuReset: TMenuItem
+        Caption = '&Reset'
+        ShortCut = 16466
+        OnClick = ResetFields
+      end
+      object MenuExit: TMenuItem
+        Caption = 'E&xit'
+        ShortCut = 32856
+        OnClick = CloseApp
+      end
+    end
+    object MenuHelp: TMenuItem
+      Caption = '&Help'
+      object MenuAbout: TMenuItem
+        Caption = '&About'
+        ShortCut = 112
+        OnClick = ShowAbout
+      end
+    end
+  end
+end

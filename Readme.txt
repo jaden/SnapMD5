@@ -1,0 +1,27 @@
+SnapMD5 1.0.4 
+Written by Dan Hersam (http://dan.hersam.com)
+
+Utility to calculate the MD5 sum and SHA-1 hash of the file passed on the 
+command line or selected and compares it with the text in the clipboard.
+
+You can close it with the Esc key.
+
+Release history
+1.0.4 - 5/2011
+Fixed incorrect MD5 sum for files over 4GB
+
+1.0.3 - 5/2011
+Fixed WinActivate behavior (for AHK users)
+Added Unicode support
+
+1.0.2 - 7/2010
+SHA-1 hash support
+Drag and drop files to generate hash
+Added about box, menus and a status bar
+Keyboard shortcuts for all menu items
+Application window is now shown before hash calculation starts when file is passed as a command line argument
+Select text in field when entered (with tab or mouse)
+A few other minor fixes
+
+1.0.1 - 5/2010
+Initial release

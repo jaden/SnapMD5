@@ -1,0 +1,17 @@
+Why do I have to call repaint to get things to show up in CalcHashes?
+
+Write up a CHM help file
+
+Add a command line option to copy the MD5 or SHA1 to the clipboard and exit (/copymd5 or /copysha1)
+
+If the MD5 string matches the clipboard, no need to compute the SHA-1
+
+If two files are given on the command line, compare them?  How to change UI to represent that easily?
+    Add result dialog that shows the two files and their hash results
+    Instead of clipboard, have dropdown to compare it to another file
+
+Translations to other languages
+
+Create batch script to clean out files
+
+Script SVN tagging (using version.inc) in a release script, generate zip file as well
