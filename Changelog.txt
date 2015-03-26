@@ -1,12 +1,3 @@
-SnapMD5 1.0.4 
-Written by Dan Hersam (http://dan.hersam.com)
-
-Utility to calculate the MD5 sum and SHA-1 hash of the file passed on the 
-command line or selected and compares it with the text in the clipboard.
-
-You can close it with the Esc key.
-
-Release history
 1.0.4 - 5/2011
 Fixed incorrect MD5 sum for files over 4GB
 

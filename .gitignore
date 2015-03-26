@@ -1,5 +1,6 @@
 backup
 Deploy
+build
 *.o
 *.or
 *.ppu
@@ -8,3 +9,4 @@ Deploy
 *.res
 *.exe
 *.swp
+*.lps
